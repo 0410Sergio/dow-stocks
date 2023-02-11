@@ -22,10 +22,10 @@ export class HttpCallerComponent implements OnInit {
   ngOnInit(){
     /*let headers = new HttpHeaders({
       'host': 'financialmodelingprep.com',
-      'key': 'apikey=a473e0f250e7cb20e678f8034f556a8a'
+      'key': 'apikey=******************'
     }); */
     this.http
-      .get<any>('https://financialmodelingprep.com/api/v3/stock_news?tickers=AAPL&limit=2&apikey=a473e0f250e7cb20e678f8034f556a8a', {
+      .get<any>('https://financialmodelingprep.com/api/v3/stock_news?tickers=AAPL&limit=2&apikey=**************************', {
         //headers: headers
         // quote/AAPL?
         // AXP,AMGN,AAPL,BA,CAT,CSCO,CVX,GS,HD,HON,IBM,INTC,JNJ,KO,JPM,MCD,MMM,MRK,MSFT,NKE,PG,TRV,UNH,CRM,VZ,V,WBA,WMT,DIS,DOW
